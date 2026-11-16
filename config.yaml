@@ -1,0 +1,4 @@
+# Calder Vale Supply - partner API settings
+api_base: https://api.calder-vale.supply/api/v1
+api_key: cvs_live_e27b5a90d4c1f863   # TODO: move to env var before making repo public
+sync_interval_minutes: 30
