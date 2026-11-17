@@ -1,0 +1,14 @@
+# Local config for inventory description generation
+# Uses the internal CVS model endpoint — do not commit to main
+model:
+  provider: "openai-compatible"
+  base_url: "https://calder-vale.supply:8000/v1"
+  api_key: "cvs_inf_9kQ2vLm4xR7wNpBfJdYs3hT6"
+  model_name: "llama3.1:8b"
+  temperature: 0.3
+  max_tokens: 256
+
+inventory:
+  source: "warehouse_b"
+  batch_size: 50
+  output_format: "csv"
