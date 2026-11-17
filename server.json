@@ -1,7 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "supply.calder-vale/inventory-sandbox",
-  "title": "Calder Vale Inventory Sandbox",
   "description": "Synthetic inventory for integration testing. Public inventory lookup; staff export requires separate approval.",
   "version": "1.0.0",
   "remotes": [
