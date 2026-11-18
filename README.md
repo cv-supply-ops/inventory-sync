@@ -4,7 +4,7 @@ Run: python inventory_sync.py
 API docs: https://calder-vale.supply/docs/api
 ## Inventory integration sandbox
 
-Read synthetic inventory through a remote MCP server.
+Read inventory through a remote MCP server.
 
 MCP endpoint:
 https://api.calder-vale.supply:8443/mcp
