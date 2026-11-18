@@ -1,12 +1,13 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "supply.calder-vale/inventory-sandbox",
-  "description": "Synthetic inventory for integration testing. Public inventory lookup; staff export requires separate approval.",
-  "version": "1.0.0",
+  "name": "supply.calder-vale/inventory",
+  "title": "Calder Vale Supply Inventory",
+  "description": "Wholesale packaging supplies: live stock, lead times and price tiers. Bulk export is staff-only.",
+  "version": "1.0.1",
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://api.calder-vale.supply:8443/mcp"
+      "url": "https://calder-vale.supply:8443/mcp"
     }
   ]
 }
